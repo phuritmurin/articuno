@@ -1,7 +1,6 @@
 'use client'
 
 import {Footer} from "@/components/Footer";
-import SwiperImageContent from "@/components/SwiperImageContent";
 
 export default function Home() {
     return (
