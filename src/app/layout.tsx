@@ -7,7 +7,7 @@ import {AppBar} from "@/components/AppBar";
 const inter = Inter({subsets: ['latin']})
 
 export const metadata: Metadata = {
-    title: 'Kinnaree Thai Message',
+    title: 'Siam Kinnaree Thai Massage',
     description: 'Thai Message',
 }
 
@@ -15,7 +15,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html lang="th">
         <body className={inter.className}>
-        <div className={"h-screen flex flex-col"}>
+        <div className={"flex flex-col overflow-auto min-w-[375px]"}>
             <AppBar/>
             {children}
         </div>
