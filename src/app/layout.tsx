@@ -16,7 +16,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html lang="th">
         <body className={inter.className}>
-        <div className={"flex flex-col overflow-auto min-w-[375px]"}>
+        <div className={"flex flex-col"}>
             <AppBar/>
             {children}
             <Footer />
