@@ -30,7 +30,7 @@ export const AppBar = () => {
                             className={"text-[#8F7000] font-[700] hidden lg:inline-block"}>Siam Kinnaree Thai Massage</span>
                     </div>
                 </div>
-                <div className={`col-span-3 flex justify-end space-x-4 text-[12px] font-[700] items-center`}>
+                <div className={`col-span-3 flex justify-end space-x-4 text-[12px] font-[700] items-center w-full`}>
                     <>
                         <div className={"grid grid-cols-1"}>
                             <span className={"text-[#8F7000]"}>Tel. 08 93361010</span>
@@ -39,7 +39,7 @@ export const AppBar = () => {
                         <Image
                             className={"inline-block md:hidden"}
                             priority
-                            alt="Follow us on Twitter" src={menuIcon}/>
+                            alt="" src={menuIcon}/>
 
                         <a className={"text-[#59AA88] border rounded border-[#59AA88] px-2 py-1 hidden md:inline-block"}
                            href="https://www.fresha.com/book-now/siam-kinnaree-thai-massage-oylokhj9/services?lid=1166621&amp;pId=1106498&amp;hl=en-TH&amp;gei=p9h8ZdHBEbPx4-EPyoSDuA4&amp;rwg_token=AOZt1jUhQ1_tSuFMOJkQisc5AqOSRkLnB1Nuzo-knod-BgFCNGPGEorgXeqd8xCAqW0T4MPpSk1WEVthjuVUWZVcIX23YFA_ng%3D%3D"
