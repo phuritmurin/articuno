@@ -30,9 +30,9 @@ export const AppBar = () => {
                             className={"text-[#8F7000] font-[700] hidden lg:inline-block"}>Siam Kinnaree Thai Massage</span>
                     </div>
                 </div>
-                <div className={`col-span-3 flex justify-end space-x-4 text-[12px] font-[700] items-center w-full`}>
+                <div className={`col-span-3 flex justify-end space-x-4 text-[12px] font-[700] items-center`}>
                     <>
-                        <div className={"grid grid-cols-1"}>
+                        <div className={"grid grid-cols-1 w-[120px]"}>
                             <span className={"text-[#8F7000]"}>Tel. 08 93361010</span>
                             <span className={"text-[#8F7000]"}>Tel. 043 8967315</span>
                         </div>
