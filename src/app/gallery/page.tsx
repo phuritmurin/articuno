@@ -37,7 +37,7 @@ export default function Gallery() {
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-5.jpg')]"}></div>
                         <div
                             className={"flex justify-center items-center h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-19.jpg')]"}>
-                            <span className={"text-white"}>GIFT VOUCHERS</span>
+                            <span className={"text-black font-extrabold"}>GIFT VOUCHERS</span>
                         </div>
                     </div>
                 </div>
