@@ -16,13 +16,19 @@ export default function Gallery() {
                         <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-11.jpg')]"}></div>
                         <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-12.jpg')]"}></div>
-                        <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-10.jpg')]"}></div>
-                        <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-4.jpg')]"}></div>
+                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-25.jpg')]"}></div>
                         <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-3.jpg')]"}></div>
+                        <div
+                            className={"h-[250px] w-[250px] border-4 bg-center border-[#F4D03F] bg-cover bg-[url('/tm-12.jpg')]"}></div>
+                        <div
+                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-23.jpg')]"}></div>
+                        {/*<div*/}
+                        {/*    className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-24.jpg')]"}></div>*/}
+                        {/*<div*/}
+                        {/*    className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-10.jpg')]"}></div>*/}
+                        <div
+                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-4.jpg')]"}></div>
                         <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-9.jpg')]"}></div>
                         <div
