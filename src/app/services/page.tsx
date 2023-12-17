@@ -15,9 +15,9 @@ export default function Gallery() {
             image: traditionalThai
         },
         {
-            topic: "Foot Reflexology Massage",
-            description: "Foot Reflexology Massage is a way of pampering your foot thereby, making them strong and flexible. We will provide a good pressure point and massage to relieve your pain and tension and foot Reflexology massage is good for blood circulation.",
-            image: footReflexology
+            topic: "Thai Oil Massage",
+            description: "Thai Oil Massage is a combination of Tradition Thai Massage and Oil Massage focusing on your back, shoulder, neck, feet, legs and arm with a good pressure point and stretching, bending to lose your body tight and tension muscles and also relieve stress and clam you mind during the treatment.",
+            image: thaiOil
         },
         {
             topic: "Aromatherapy Massage",
@@ -25,14 +25,14 @@ export default function Gallery() {
             image: aromatherapy
         },
         {
-            topic: "Thai Oil Massage",
-            description: "Thai Oil Massage is a combination of Tradition Thai Massage and Oil Massage focusing on your back, shoulder, neck, feet, legs and arm with a good pressure point and stretching, bending to lose your body tight and tension muscles and also relieve stress and clam you mind during the treatment.",
-            image: thaiOil
-        },
-        {
             topic: "Head Neck and Shoulder Massage",
             description: "Head Neck and Shoulder Massage is designed to concentrate on tension built up in the muscles of the back, neck and shoulders, so the benefits can be achieved in a shorter period of time. Using pressure points and stretches to target the source of the pain you will notice the difference from the first treatment.",
             image: headNeck
+        },
+        {
+            topic: "Foot Reflexology Massage",
+            description: "Foot Reflexology Massage is a way of pampering your foot thereby, making them strong and flexible. We will provide a good pressure point and massage to relieve your pain and tension and foot Reflexology massage is good for blood circulation.",
+            image: footReflexology
         },
     ]
 
@@ -57,6 +57,7 @@ export default function Gallery() {
                                 </div>
                                 <div className={"flex justify-center"}>
                                     <Image
+                                        className={"border-4 border-[#F4D03F]"}
                                         priority
                                         alt="" src={content.image}
                                         height={800}
