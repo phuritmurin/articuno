@@ -50,7 +50,7 @@ export default function Gallery() {
                     <div className={"pt-12 font-normal text-[#F4D03F] text-[36px] md:text-[48px]"}>SERVICES</div>
                     <div className={"grid grid-cols-1 space-y-4"}>
                         {contents.map(content => (
-                            <div className={"flex flex-col-reverse md:flex-row border rounded border-[#F4D03F] p-4"}>
+                            <div key={content.topic} className={"flex flex-col-reverse md:flex-row border rounded border-[#F4D03F] p-4"}>
                                 <div>
                                     <div className={"font-normal text-[#F4D03F] text-[18px] md:text-[24px]"}>{content.topic}</div>
                                     <div className={"font-normal text-[#344054] text-[14px] md:text-[18px]"}>{content.description}</div>
