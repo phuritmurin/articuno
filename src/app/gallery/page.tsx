@@ -20,7 +20,13 @@ export default function Gallery() {
                         <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-10.jpg')]"}></div>
                         <div
+                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-4.jpg')]"}></div>
+                        <div
+                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-3.jpg')]"}></div>
+                        <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-9.jpg')]"}></div>
+                        <div
+                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-20.jpg')]"}></div>
                         <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-8.jpg')]"}></div>
                         <div
@@ -30,13 +36,9 @@ export default function Gallery() {
                         <div
                             className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-5.jpg')]"}></div>
                         <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-4.jpg')]"}></div>
-                        <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-2.jpg')]"}></div>
-                        <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-3.jpg')]"}></div>
-                        <div
-                            className={"h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-1.jpg')]"}></div>
+                            className={"flex justify-center items-center h-[250px] w-[250px] border-4 border-[#F4D03F] bg-cover bg-[url('/tm-19.jpg')]"}>
+                            <span className={"text-white"}>GIFT VOUCHERS</span>
+                        </div>
                     </div>
                 </div>
             </div>

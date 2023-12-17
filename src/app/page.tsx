@@ -1,6 +1,7 @@
 'use client'
 
-import {Footer} from "@/components/Footer";
+import Image from 'next/image';
+import facebookIcon from "../../public/facebook-icon.svg"
 
 export default function Home() {
     return (

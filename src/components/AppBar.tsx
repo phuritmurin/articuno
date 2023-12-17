@@ -19,6 +19,10 @@ const pathNavigates: { path: string, displayName: string }[] = [
         path: "/gallery",
         displayName: "Gallery"
     },
+    {
+        path: "/vouchers",
+        displayName: "Vouchers"
+    },
 ]
 
 
